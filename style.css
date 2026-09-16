@@ -1,0 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif}
+body{background:#000;color:white;line-height:1.6}
+nav{height:80px;display:flex;justify-content:space-between;align-items:center;padding:0 8%;position:sticky;top:0;background:rgba(0,0,0,.7);backdrop-filter:blur(20px)}
+nav h2{font-size:30px}nav a{color:#aaa;text-decoration:none;margin-left:25px}
+.hero{min-height:90vh;display:flex;align-items:center;justify-content:center;gap:80px;padding:50px 8%}
+.hero-text{max-width:600px}
+h1{font-size:65px;letter-spacing:-3px;line-height:1;margin:20px 0}
+.hero h3{font-size:28px;color:#ddd;font-weight:400}
+button{margin-top:30px;padding:15px 30px;border-radius:50px;border:0;background:white;color:black}
+.image-box img{width:360px;height:360px;object-fit:cover;border-radius:50%;box-shadow:0 0 80px rgba(255,255,255,.15)}
+section{padding:80px 10%}section h2{font-size:45px;margin-bottom:25px}section p{font-size:20px;color:#bbb}
+#values{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:linear-gradient(145deg,#151515,#080808);padding:35px;border-radius:30px;border:1px solid #222}
+.features{display:flex;flex-wrap:wrap;gap:20px}.features span{padding:15px 25px;background:#111;border-radius:50px;border:1px solid #222}
+footer{text-align:center;padding:40px;color:#777}
+@media(max-width:900px){.hero{flex-direction:column-reverse;text-align:center}h1{font-size:45px}#values{grid-template-columns:1fr}.image-box img{width:260px;height:260px}}
